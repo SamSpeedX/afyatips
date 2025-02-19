@@ -15,7 +15,7 @@ const HomePage = () => {
             titlt: "Matumizi ya Sigara",
             body: "Watu wengi wakekuwa wakijihusisha na uvutaji wa sigara bila kujua madhara ya uvutaji wa sigara katika miili yao, inagawa baadhi yao wanafahamu lakini wanapuudhia",
             author: "Dr Emma Mgidha",
-            authorImage: "http://localhost:5173/src/assets/teacher.jpg",
+            authorImage: "https://afyatips-theta.vercel.app/src/assets/teacher.jpg",
             postImage: "http://localhost:5173/src/assets/blog-1.jpg",
         },
         {
@@ -23,7 +23,7 @@ const HomePage = () => {
             titlt: "title",
             body: "This is the content of post 2.",
             author: "Dr Anna Stephano",
-            authorImage: "http://localhost:5173/src/assets/teacher.jpg",
+            authorImage: "https://afyatips-theta.vercel.app/src/assets/teacher.jpg",
             postImage: "http://localhost:5173/src/assets/blog-2.jpg",
         },
         {
@@ -31,7 +31,7 @@ const HomePage = () => {
             titlt: "title",
             body: "This is the content of post 3.",
             author: "Dr Asia Mussa",
-            authorImage: "http://localhost:5173/src/assets/teacher.jpg",
+            authorImage: "https://afyatips-theta.vercel.app/src/assets/teacher.jpg",
             postImage: "http://localhost:5173/src/assets/blog-2.jpg",
         },
     ];
