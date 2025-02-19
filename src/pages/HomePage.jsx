@@ -16,7 +16,7 @@ const HomePage = () => {
             body: "Watu wengi wakekuwa wakijihusisha na uvutaji wa sigara bila kujua madhara ya uvutaji wa sigara katika miili yao, inagawa baadhi yao wanafahamu lakini wanapuudhia",
             author: "Dr Emma Mgidha",
             authorImage: "https://afyatips-theta.vercel.app/src/assets/teacher.jpg",
-            postImage: "http://localhost:5173/src/assets/blog-1.jpg",
+            postImage: "https://afyatips-theta.vercel.app/src/assets/blog-1.jpg",
         },
         {
             id: 2,
@@ -24,7 +24,7 @@ const HomePage = () => {
             body: "This is the content of post 2.",
             author: "Dr Anna Stephano",
             authorImage: "https://afyatips-theta.vercel.app/src/assets/teacher.jpg",
-            postImage: "http://localhost:5173/src/assets/blog-2.jpg",
+            postImage: "https://afyatips-theta.vercel.app/src/assets/blog-2.jpg",
         },
         {
             id: 3,
@@ -32,7 +32,7 @@ const HomePage = () => {
             body: "This is the content of post 3.",
             author: "Dr Asia Mussa",
             authorImage: "https://afyatips-theta.vercel.app/src/assets/teacher.jpg",
-            postImage: "http://localhost:5173/src/assets/blog-2.jpg",
+            postImage: "https://afyatips-theta.vercel.app/src/assets/blog-2.jpg",
         },
     ];
 
