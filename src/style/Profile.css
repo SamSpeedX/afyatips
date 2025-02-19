@@ -1,0 +1,156 @@
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #fcd6d6;
+    color: #fff;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Profile Container */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Profile Card */
+.profile-card {
+    background: rgb(67, 62, 109);
+    backdrop-filter: blur(10px);
+    width: 380px;
+    border-radius: 16px;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 20px;
+    box-shadow: 0px 8px 15px rgba(7, 7, 7, 0.1);
+}
+
+/* Cover Photo */
+.cover-photo img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Profile Info */
+.profile-info {
+    margin-top: -50px;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-pic:hover {
+    transform: scale(1.1);
+}
+
+.profile-name {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.profile-username {
+    font-size: 14px;
+    color: #aaa;
+}
+
+.profile-bio {
+    font-size: 14px;
+    color: #ddd;
+    margin: 10px;
+}
+
+/* Stats */
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    padding: 10px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat-number {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff4d4d;
+}
+
+.stat-label {
+    font-size: 12px;
+    color: #aaa;
+}
+
+/* Buttons */
+.button-group {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.follow-button,
+.message-button {
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+    outline: none;
+}
+
+.follow-button {
+    background: #ff4d4d;
+    color: white;
+}
+
+.message-button {
+    background: #444;
+    color: white;
+}
+
+.follow-button:hover {
+    background: #ff3333;
+}
+
+.message-button:hover {
+    background: #666;
+}
+
+/* Loading Spinner */
+.loading {
+    text-align: center;
+}
+
+.spinner {
+    width: 30px;
+    height: 30px;
+    border: 3px solid #ccc;
+    border-top: 3px solid #ff4d4d;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 10px auto;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
